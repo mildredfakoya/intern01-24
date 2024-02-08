@@ -18,10 +18,15 @@
     width: 50px; 
 }
 
+.logo{
+    padding-left: 120px;
+}
+
 .nav-links {
     padding-top: 13px;
     list-style-type: none;
     display: flex;
+    padding-right: 120px;
 }
 
 .nav-links li {
@@ -72,7 +77,7 @@
 
 .login-btn a:hover {
     background-color: #3887BE;
-    color: #fff; /* Change to desired hover color */
+    color: #fff; 
 }
 
 
@@ -136,3 +141,46 @@
     width: 100%;
     }
 
+    .menu-icon {
+        display: none;
+        flex-direction: column;
+        cursor: pointer;
+    }
+    
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+}
+    
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 40%;
+        background-color: #38419D;
+        height: 200px;
+    }
+    
+    .nav-links.active {
+        display: flex;
+    }
+    
+    .nav-links li {
+        text-align: right;
+        margin: 0;
+    }
+    
+    .menu-icon {
+        display: flex;
+        padding-right: 30px;
+    }
+
+    .logo{
+        padding-left: 30px;
+    }
+}

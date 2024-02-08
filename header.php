@@ -6,6 +6,11 @@
    <meta name="description" content="case-based surveillance system, OECS, Globalfund, PAHO, CARPHA" />
    <meta name="author" content="mildred ayeesha fakoya, Mildred Ojomah" />
    <link href="css/header.css" rel="stylesheet" />
+   <link href="css/administrator.css" rel="stylesheet" />
+   <link href="css/developer.css" rel="stylesheet" />
+   <link href="css/footer.css" rel="stylesheet" />
+   <link href="css/participant.css" rel="stylesheet" />
+   <link href="css/surveillance.css" rel="stylesheet" />
    <!--   <link href="css/styles.css" rel="stylesheet" />
    <link href="css/mystyles.css" rel="stylesheet" />
    <link href="css/w3css.css" rel="stylesheet" /> -->
@@ -39,6 +44,11 @@
         <div class="logo ">
             <a href="#"><img src="images/logo.png" alt="Logo"></a>
         </div>
+        <div class="menu-icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
         <ul class="nav-links ">
         <li><a href="#">Home</a></li>
         <li><a href="#">Self Check</a></li>
@@ -55,4 +65,7 @@
         </ul>     
 
     </nav>
+
+    <script src="js/script.js"></script>
+
  </body>
