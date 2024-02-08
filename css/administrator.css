@@ -1,0 +1,22 @@
+.administrator_1 {
+    border: 5px outset red;
+    background-color: lightblue;
+    text-align: center;
+}
+
+h1 {
+    color:green;
+    background-color:blue;
+    text-align: center;
+
+}
+
+h2 {
+    color:red;
+    text-align: center;
+}
+
+h3 {
+    color:blue;
+    text-align:center;
+}

@@ -8,6 +8,7 @@
    <link href="css/styles.css" rel="stylesheet" />
    <link href="css/mystyles.css" rel="stylesheet" />
    <link href="css/w3css.css" rel="stylesheet" />
+   <link href="css/administrator.css" rel="stylesheet"
    <title>OECS.::.eCBS</title>
       <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
 
