@@ -1,0 +1,29 @@
+
+.P_Announcement {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.P_section{
+    padding: 40px; 
+    text-align:left; 
+    background-color:33F0FF; 
+    color: #000000;
+}
+.P_container-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.P_container {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 0 10px;
+}
