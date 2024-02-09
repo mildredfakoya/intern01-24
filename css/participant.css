@@ -9,9 +9,14 @@
     text-align: center;
 }
 
-.P_Announcement p {
-    text-align: left;
+.P_Announcement h1{
+    font-weight: bold;
 }
+
+.P_Announcement p {
+    text-align: left; /* alignment for text*/
+}
+
 .P_section {
     margin-top: 60px;
     padding: 40px;
@@ -43,6 +48,7 @@
     background-color: lightgrey;
     color: black;
 }
+
 .P_container h3 {
     color:black;
     text-align: center;
