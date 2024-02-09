@@ -4,6 +4,7 @@ require_once "header.php"
 <body>
     <section class="P_Announcement">
         <h1>Welcome</h1>
+        <h4> Participants Home</h4>
         <p id="announcementsPlaceholder">Announcements Placeholder</p>
     </section>
 
@@ -13,10 +14,9 @@ require_once "header.php"
         Insert video here
         </p>
     </section>
-
     <section class="P_section">
         <div class="P_container-wrapper" >
-            <div class="P_container" >
+            <div class="P_container1" >
                 <h3>Your Schedule</h3>
                 <p>This is the content of your schedule</p>
             </div>
