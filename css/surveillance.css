@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+
+section ::after{
+    content: "";
+    clear: both;
+}
+
+header{
+    background-color: mediumblue;
+    color: aliceblue;
+    padding: 1px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+nav ul {
+    background-color: mediumblue;
+    list-style-type: none;
+    margin: 0;
+    font-size: 19px;
+    color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    color: aquamarine;
+}
+
+
+.S_article1{
+    background-color: bisque;
+    font-size: 20px;
+    
+}
+
+.S_aside1{
+    background-color: darksalmon;
+    font-size: 20px;
+}
+
+/*Dropdown css*/
+.S_dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px;
+    font-size: 16px;
+    
+  }
+
+/*Set border for the nav buttons*/
+  .S_dropbtn {border-radius: 10%;}
+  
+  .S_dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: -12px;
+  }
+  
+  .S_dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .S_dropdown-content a {
+    color: black;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .S_dropdown-content a:hover {background-color: #ddd;}
+  
+  .S_dropdown:hover .S_dropdown-content {display: block;}
+  
+  .S_dropdown:hover .S_dropbtn {background-color: blue;}
+
+  /*To get my page a grid layout i applied grid-column, since i feel this page 
+  shold be in column*/
+  .S_grid_container{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+  }
+/*This is to make all the children of this gid container to have the following*/
+  .S_grid_container >*{
+    margin: 10px;
+    padding: 5px;
+  }
