@@ -54,6 +54,7 @@
   <a href="#">Services</a>
   <a href="#">Clients</a>
   <a href="#">Contact</a>
+  <a href="#">Contact</a>
 </div>
 
 <span style="font-size:23px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
