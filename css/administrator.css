@@ -1,23 +1,79 @@
-.a_administrator {
-    border: 5px outset red;
-    background-color: lightblue;
-    text-align: center;
+* {
+    box-sizing: border-box;
 }
 
-
-.a_container-fluid h1 {
-    color:green;
-    background-color:blue;
-    text-align: center;
-
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.a_container-fluid h2 {
+.a_wrapper {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #52D3D8;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #333;
+}
+
+nav a.nav-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a.nav-link:hover {
+    background-color: #3887BE;
+}
+
+.form-field {
+    margin-bottom: 15px;
+}
+
+.form-field label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-field input,
+.form-field button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.form-field input:focus,
+.form-field button:focus {
+    outline: none;
+    box-shadow: 0 0 2px 1px #333;
+}
+
+.form-field button {
+    background-color: #38419D;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-field button:hover {
+    background-color: #3887BE;
+}
+
+.a_administrator h1 {
+    text-align: center;
     color:red;
-    text-align: center;
 }
-
-.a_container-fluid h3 {
-    color:blue;
-    text-align:center;
+.a_administrator h2 {
+    text-align: center;
+    color:#333;
+}
+.a_administrator h3 {
+   text-align:left; 
+   padding: 10px;
+   color:gold;
 }
