@@ -6,6 +6,7 @@ require_once "header.php"
         <div class="dev_sidenav">
         <h5>CORE</h5>
         <a href="#">Home</a>
+        <div class="dev_dropdown">
         <h5>DOWNLOADS</h5>
         <a href="#">Manuals</a>
         <div class="dev_dropdown">
@@ -14,7 +15,7 @@ require_once "header.php"
         <div  class="dev_dropdown-content">
         <a id="dev_drop-content" href="#">Users & Accounts</a>
         <div id="dev_dropdown-content">
-            <a class="dev_dropdown-content" href="#">Create Users</a>
+            <a href="#">Create Users</a>
             <a href="#"> Manage Existing Users </a>
         </div>
         <div>
@@ -24,6 +25,7 @@ require_once "header.php"
         <a>View Facilitators</a>
         <a>Participants Schedule</a>
        
+            </div>
             </div>
             </div>
             </div>
@@ -51,8 +53,9 @@ require_once "header.php"
     </div>
     </article>
     </section>
-</body>
+    
+    </body>
+   
 <?php
 require_once "footer.php"
  ?>
-</html>

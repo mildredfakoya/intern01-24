@@ -228,11 +228,12 @@ background-color: #555;
 
 .dev_dropdown:hover  .dev_dropdown-content {
 	display: block;
+	background-color: #38419D;
 }
 
 #dev_dropdown-content a{
 	color: #52D3D8;
-	text-align: right;
+	text-align: left;
 	font-style: italic;
 	text-decoration: underline;
 }
