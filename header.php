@@ -6,9 +6,10 @@
    <meta name="description" content="case-based surveillance system, OECS, Globalfund, PAHO, CARPHA" />
    <meta name="author" content="mildred ayeesha fakoya, Mildred Ojomah" />
    <link href="css/header.css" rel="stylesheet" />
+   <link href="css/index.css" rel="stylesheet" />
+   <link href="css/footer.css" rel="stylesheet" />
    <link href="css/administrator.css" rel="stylesheet" />
    <link href="css/developer.css" rel="stylesheet" />
-   <link href="css/footer.css" rel="stylesheet" />
    <link href="css/participant.css" rel="stylesheet" />
    <link href="css/surveillance.css" rel="stylesheet" />
    <!--   <link href="css/styles.css" rel="stylesheet" />

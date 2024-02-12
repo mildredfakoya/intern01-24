@@ -161,7 +161,7 @@
         position: absolute;
         top: 60px;
         right: 0;
-        width: 40%;
+        width: 30%;
         background-color: #38419D;
         height: 200px;
     }
@@ -172,7 +172,7 @@
     
     .nav-links li {
         text-align: right;
-        margin: 0;
+        padding-bottom: 20px;
     }
     
     .menu-icon {
@@ -183,4 +183,6 @@
     .logo{
         padding-left: 30px;
     }
+
+   
 }
