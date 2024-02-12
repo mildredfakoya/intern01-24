@@ -9,7 +9,9 @@ require_once "header.php";
  <iframe width="560" height="315" src="https://www.youtube.com/embed/BA5E9wsEbPw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
  </iframe>
  </div>
- </div> <div class="row">
+ </div>
+
+ <div class="row">
       <div class="col-xl-6 col-md-6">
           <div class="card bg-success mb-4">
             <h3 class='card-header bg-success'>Case-Based Surveillance System Overview</h3>
