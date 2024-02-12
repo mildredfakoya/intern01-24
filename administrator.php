@@ -15,6 +15,7 @@ require_once "header.php";
 </div>
 
 
+
         <form>
             <div class="form-field">
                 <label for="firstName">First Name</label>
@@ -59,6 +60,7 @@ require_once "header.php";
             </div>
         </form>
     </div>
+</div>
 
 <?php
 require_once "footer.php";
