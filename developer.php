@@ -1,7 +1,7 @@
 <?php
 require_once "header.php"
  ?>
-<body>
+<body id="d_body">
 <div class="col-s-2">
         <div class="dev_sidenav">
         <h5>CORE</h5>
