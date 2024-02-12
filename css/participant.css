@@ -1,9 +1,9 @@
 
 .P_Announcement {
-    position: fixed;
+    position: relative;
     top: 0;
     width: 100%;
-    background-color: darkcyan; 
+    background-color: #200E3A; 
     color: white;
     padding: 10px;
     text-align: center;
@@ -17,18 +17,24 @@
     text-align: left; /* alignment for text*/
 }
 
-.P_section {
-    margin-top: 60px;
+.P_section1 {
     padding: 40px;
     text-align: left;
-    background-color: white; 
+    background-color: #52D3D8; 
+    color: #333; 
+}
+.P_section {
+    padding: 20px;
+    text-align: left;
+    background-color: #52D3D8; 
     color: #333; 
 }
 
 .P_container-wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 .P_container {
@@ -36,17 +42,9 @@
     padding: 10px;
     border: 1px solid black; 
     margin: 0 10px;
-    background-color: lightskyblue;
+    background-color: #3887BE;
     color: black;
-}
-
-.P_container1 {
-    flex: 1;
-    padding: 10px;
-    border: 1px solid black; 
-    margin: 0 10px;
-    background-color: lightgrey;
-    color: black;
+    border-radius: 8px;
 }
 
 .P_container h3 {
@@ -54,7 +52,7 @@
     text-align: center;
 }
 
-.P_container1 h3 {
-    color:black;
-    text-align: center;
-}
+
+
+
+
