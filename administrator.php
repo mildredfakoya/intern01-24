@@ -5,7 +5,7 @@ require_once "header.php";
 <body>
     <div class="a_wrapper">
         <nav>
-            <a class="nav-link" href="#">Ref NO</a>
+            <a class="nav-link" href="#">Ref Number</a>
             <a class="nav-link" href="#">210775</a>
         </nav>
         <div class="a_administrator">
