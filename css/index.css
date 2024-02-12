@@ -1,0 +1,43 @@
+
+.iHeader{
+    background-color: #38419D ;
+    padding-top:10px ;
+    padding-bottom:10px ;
+}
+
+.iH1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.iArticles{
+    background-color: #90eaed;
+    padding: 50px 120px;
+}
+
+.iH2{
+    padding-bottom: 30px;
+}
+
+
+#video-container {
+	max-width: 1200;
+	width: 100%;
+  height: 60vh;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 2rem;
+    padding: 50px 120px;
+  }
+
+  .video {
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+ 

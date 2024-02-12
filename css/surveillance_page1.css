@@ -1,0 +1,64 @@
+.sidenav {
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 19px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 30px;
+    margin-left: 50px;
+  }
+
+  .dropdown-btn {
+    background-color: #111;
+    text-decoration: none;
+    color: #818181;
+    width: 220px;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .dropdown-btn :hover{
+    color: #f1f1f1;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 25px;}
+  }
+
+.S_grid_container{
+    text-align: center;
+    
+    max-width: 1200;
+	  font-size: 25px;
+    margin-top: -130px;
+    margin-left: 120px;
+	  display: grid;
+	  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	  gap: 1rem;
+    padding: 100px 120px;
+}

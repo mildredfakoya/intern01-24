@@ -1,29 +1,58 @@
 
 .P_Announcement {
-    position: fixed;
+    position: relative;
     top: 0;
     width: 100%;
-    background-color: #333;
-    color: #fff;
+    background-color: #200E3A; 
+    color: white;
     padding: 10px;
     text-align: center;
 }
 
-.P_section{
-    padding: 40px; 
-    text-align:left; 
-    background-color:33F0FF; 
-    color: #000000;
+.P_Announcement h1{
+    font-weight: bold;
 }
+
+.P_Announcement p {
+    text-align: left; /* alignment for text*/
+}
+
+.P_section1 {
+    padding: 40px;
+    text-align: left;
+    background-color: #52D3D8; 
+    color: #333; 
+}
+.P_section {
+    padding: 20px;
+    text-align: left;
+    background-color: #52D3D8; 
+    color: #333; 
+}
+
 .P_container-wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 .P_container {
     flex: 1;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid black; 
     margin: 0 10px;
+    background-color: #3887BE;
+    color: black;
+    border-radius: 8px;
 }
+
+.P_container h3 {
+    color:black;
+    text-align: center;
+}
+
+
+
+
+
