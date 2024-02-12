@@ -10,11 +10,19 @@
     color: white;
 }
 
-.container {
+.fContainer {
 	max-width: 1200;
 	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	gap: 2rem;
     padding: 100px 120px;
+}
+
+.pFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    padding-bottom: 10px;
 }
