@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="vitalsigns.css">
+</head>
+<body>
+        <div class="v_appoint">
+                <h1>Vital Signs Data Registery</h1>
+                    <nav>
+                        <a class="nav-link" href="#">Ref Number</a>
+                        <a class="nav-link" href="#">210775</a>
+                    </nav>
+            </div>
+
+        <section class="row">
+            <form class="col-s-6" id="vital-signs-form">
+                   
+                    <div class="form-control label">
+                            <label for="bp">Blood Pressure(mmHg)</label>
+                            <input type="text" name="blood pressuer" id="bp" placeholder="exp. 120/80">
+                    </div>
+                    <div class="form-control label" >
+                            <label for="pulse">Pulse(bpm)</label>
+                            <input type="text" name="pulse" id="pulse" placeholder="exp. 72">
+                    </div>
+                    <div>
+                        <div class="form-control label">
+                            <label for="respiration">Respiration(cpm)</label>
+                            <input type="text" name="respiration" id="respiration" placeholder="exp. 20">
+                    </div>
+                    <div class="form-control label">
+                            <label for="weight">Weight(lbs)</label>
+                            <input type="text" name="weight" id="weight" placeholder="exp. 200">
+                    </div>
+                    
+                    <div class="form-control label">
+                            <label for="height">Height(cm)</label>
+                            <input type="text" name="height" id="height" placeholder="exp. 150">
+                    </div>
+                   
+                    <div class="form-control label">
+                            <label for="bodyMassIndex">Body Mass Index(BMI)</label>
+                            <input type="text" name="bodyMassIndex" id="bodyMassIndex" placeholder="exp. 24.9">
+                    </div>
+                    <div class="form-control label">
+                            <label for="temperature">Temperature(&deg;F)</label>
+                            <input type="text" name="temperature" id="temperature" placeholder="exp. 100">
+                    </div>
+                </div>
+                    <div>
+                        <input class="input" name="" type="submit" onclick="collectAndDisplayValues();" value="Save">
+                       
+                    </div>
+                
+            </form>
+
+            <div class="col-s-6" id="display-container">
+            </div>
+            
+        </section>
+
+<script src="vitalsigns.js"></script>
+           
+</body>
+</html>
