@@ -3,47 +3,49 @@
  ?>
 <body class="S_home">
   
-  <header>
+  <header class="S_header">
       <h2>Patient Managment & Reporting System</h2>
       <h4>Reporting</h4>
   </header>
   
   <section class="S_grid_container">
-      <nav class="S_sidenavbar">
+      <nav class="S_sidenavbar" style="padding: 10px;">
           <ul>
-              <li><a href="#">Home</a></li>
+              <li><a href="#">Monitoring</a></li>
           </br>
-              <li><a href="#">About</a></li>
+              <li><a href="#">Reporting</a></li>
           </br>
               <div class="S_dropdown">
-                  <button class="S_dropbtn">Dropdown</button>
+                  <button class="S_dropbtn">Screening</button>
                   <div class="S_dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
+                    <a href="#">Prevention/Control</a>
+                    <a href="#">OECS</a>
+                    <a href="#">M & E</a>
+                    <a href="#">Auto Generated Report</a>
                   </div>
               </div>
           </br>
           </br>
-          <li><a href="#">Home</a></li>
+          <li><a href="#">Monitoring</a></li>
       </br>
-          <li><a href="#">About</a></li>
+          <li><a href="#">Reports</a></li>
       </br>
       </br>
               
               <div class="S_dropdown">
-                  <button class="S_dropbtn">Dropdown</button>
+                  <button class="S_dropbtn">Commitment</button>
                   <div class="S_dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
+                    <a href="#">HIV</a>
+                    <a href="#">TB</a>
+                    <a href="#">Syphilis</a>
+                    <a href="#">OECS Summary Sheet</a>
                   </div>
                   </div>
               </br>
               </br>
-                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Antenatal Reporting</a></li>
               </br>
-                  <li><a href="#">About</a></li>
+                  <li><a href="#">Pharmacy Reports</a></li>
               </br>
           
               
@@ -51,25 +53,26 @@
 
       </nav>
 
-      <article class="S_article1">
-                             <h5>Welcome test surveillance</h5>
-               <p>Your assigned role is Monitoring and Reporting:</p>
+      <article class="S_article1" style="padding: 60px; margin: 20px 20px 20px 20px;">
+                             <h4><b>Welcome test surveillance</b></h4>
+               <p>Your assigned role is <b> Monitoring and Reporting:</b></p>
 
               <p>the pages menu on the left to reveal the set of functionalities you have under your assigned role.</p> 
 
-              <p> To get the Screening, Prevention/Control and OECS M&E auto-generated Report, expand the Screening,Prevention and Control sub-menu of the pages menu located at the side bar on the left of the screen.
+              <p>1.To get the Screening, Prevention/Control and OECS M&E auto-generated Report, expand the <b>Screening,Prevention and Control</b> sub-menu of the pages menu located at the side bar on the left of the screen.
+              <br>
 
-                  <p> 2. To get report on HIV, TB, Syphilis Cases OECS Summary Sheet, expand the Commitment to the 90-90-90 Target sub-menu.
-
-               3. To get reports on Antenatal and Exposed Infants, expand the Antenatal Reporting sub-menu.
-
-               4. To get pharmacy reports, expand the Pharmacy Report sub-menu.
+             <p> 2. To get report on HIV, TB, Syphilis Cases OECS Summary Sheet, expand the <b> Commitment to the 90-90-90 Target</b> sub-menu.
+             <br>
+             <br>
+               3. To get reports on Antenatal and Exposed Infants, expand the <b> Antenatal Reporting</b> sub-menu.
+               <br>
+               <br>
+               4. To get pharmacy reports, expand the<b> Pharmacy Report </b>sub-menu.
               </p> 
       </article>
 
-      <aside class="S_aside1">
-          <h5>More Info</h5>
-      </aside>
+      
 
   </section>
 
@@ -77,6 +80,8 @@
 
 
 
-
+  <?php
+  require_once "footer.php";
+ ?>
 </body>
 </html>
